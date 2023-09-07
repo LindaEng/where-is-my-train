@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #155cea;
+}
+
+.voice-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#voiceText {
+    padding: 10px 10px;
+    border: none;
+    width: 200px;
+}
+
+#microphoneBtn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+#submit {
+    background-color: rgb(196, 255, 197);
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 8px 10px;
+}
+#microphoneBtn:focus {
+    outline: none;
+}
